@@ -1,5 +1,5 @@
 # How long did you spend on the coding test below?
-I spent about 2 weeks on the coding Test
+I spent about 2 weeks on the coding Test and if I had more time I would have added authentication to the backend and created a better looking frontend.
 
 # What was the most useful feature that was added to the latest version of your chosen language?
 My chosen language for the frontend is Javascript, and one of the latest features added to the language is the arrow sqyntax used for declaring anonymous functions.
