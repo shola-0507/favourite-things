@@ -16,4 +16,4 @@ and rank their favourite things (using Vue-draggable), create and view categorie
 
 # Deployment
 A dockerized version of the backend was deployed using Heroku and the Frontend with Netlify. The frontend and backend contain 
-dockerfiles that communicate with each other using a docker-compose file in the root directory.
+dockerfiles that communicate with each other using a docker-compose file in the root directory (useful for local testing).
