@@ -1,0 +1,27 @@
+version: '3'
+
+services:  
+  backend:
+    container_name: britecore-backend
+    restart: always
+    build: ./backend
+    env_file:
+      - ./backend/.env
+    expose:
+      - 5000
+
+  backend-nginx:
+    container_name: backend-nginx
+    build: ./backend/nginx
+    restart: always
+    ports:
+      - '3000:5000'
+
+  frontend:
+    container_name: britecore-frontend
+    restart: always
+    build: ./frontend
+    ports: 
+      - '8080:80'
+    links: 
+      - backend-nginx

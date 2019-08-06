@@ -1,0 +1,9 @@
+{
+    "firstname": "Olushola",
+    "lastname": "Karokatose",
+    "Email": "shola.karo@gmail.com",
+    "ProgrammingStack": {
+        "languages": ["PHP", "Javascript", "Python"],
+        "Frameworks": ["Laravel", "Lumen", "Flask", "NodeJS", "WebPY"]
+    }
+}
